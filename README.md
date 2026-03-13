@@ -102,10 +102,21 @@ Step14. click on debug and simulate using simulation as shown below
 
 
 ## Output screen shots of proteus  :
- 
+ ## 750 Pluse:
+
+![img]()
+
+ ## 500 Pluse:
+
+![img]()
+
+ ## 250 Pluse:
+
+ ![img]()
  
  ## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
  
+![img]()
 
 ## DUTY CYCLE AND FREQUENCY CALCULATION 
 FOR PULSE AT 500
@@ -133,7 +144,3 @@ FREQUENCY = 1/(TOTAL TIME)
 
 ## Result :
 A PWM Signal is generated using the following frequency and various duty cycles are simulated 
-
-
-
-
