@@ -90,17 +90,12 @@ Step10. Double click on the the MCU part to open settings. Next to the Program F
 Step14. click on debug and simulate using simulation as shown below 
  ![image](https://github.com/vasanthkumarch/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/36288975/b8efbfc2-f0c5-4106-8117-3a6e7ac87f6c)
 
-
- 
-
-  
-
 ## STM 32 CUBE PROGRAM :
-
-
-
-
-
+```
+HAL_TIM_Base_Start(&htim2);
+      HAL_TIM_PWM_Init(&htim2);
+      HAL_TIM_PWM_Start(&htim2,TIM_CHANNEL_1);
+```
 ## Output screen shots of proteus  :
  ## 750 Pluse:
 
