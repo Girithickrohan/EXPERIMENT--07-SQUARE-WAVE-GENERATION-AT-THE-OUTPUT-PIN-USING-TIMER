@@ -117,24 +117,31 @@ HAL_TIM_Base_Start(&htim2);
 FOR PULSE AT 500
 
 TOFF=500
+
 TOTAL TIME = 1000
+
 FREQUENCY = 1/(TOTAL TIME) =16.67 Hz
 
-FOR PULSE AT 700
+FOR PULSE AT 750
 
-TON = 
-TOFF=
-TOTAL TIME = 
-FREQUENCY = 1/(TOTAL TIME)
+TON = 750
+
+TOFF = 250 (Calculated as 1000 - 750)
+
+TOTAL TIME = 1000
+
+FREQUENCY = 1/(TOTAL TIME) = 16.67 Hz
 
 
-FOR PULSE AT 900
+FOR PULSE AT 250
 
-TON = 
-TOFF=
-TOTAL TIME = 
-FREQUENCY = 1/(TOTAL TIME)
+TON = 250
 
+TOFF = 750 (Calculated as 1000 - 250)
+
+TOTAL TIME = 1000
+
+FREQUENCY = 1/(TOTAL TIME) = 16.67 Hz
 
 ## Result :
 A PWM Signal is generated using the following frequency and various duty cycles are simulated 
